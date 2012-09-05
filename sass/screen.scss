@@ -31,19 +31,19 @@
       top: -325px;
       list-style: none;
       
-      .firstanimation {
+      &.firstanimation {
          animation: cycle 25s linear infinite;
       } 
-      .secondanimation {
+      &.secondanimation {
          animation: cycletwo 25s linear infinite;
       }
-      .thirdanimation {
+      &.thirdanimation {
          animation: cyclethree 25s linear infinite;
       }
-      .fourthanimation {
+      &.fourthanimation {
          animation: cyclefour 25s linear infinite;
       }
-      .fifthanimation {
+      &.fifthanimation {
          animation: cyclefive 25s linear infinite;
       }
    }

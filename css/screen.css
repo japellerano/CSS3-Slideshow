@@ -351,6 +351,28 @@ table {
 }
 
 /* ----------------------------------------------------- */
+/* Header
+/* ----------------------------------------------------- */
+header {
+  width: 960px;
+  margin: auto;
+  text-align: center;
+}
+header h1 {
+  font-size: 45px;
+}
+header p {
+  font-size: 14px;
+  font-style: italic;
+}
+header p a {
+  color: #e31e00;
+}
+header p a:hover {
+  color: #00a3e3;
+}
+
+/* ----------------------------------------------------- */
 /* Container
 /* ----------------------------------------------------- */
 .container {

@@ -682,7 +682,7 @@ header p a:hover {
   top: -5px;
   width: 680px;
   height: 5px;
-  background: #000;
+  background: #00a3e3;
   -webkit-animation: fullexpand 25s ease-out infinite;
 }
 

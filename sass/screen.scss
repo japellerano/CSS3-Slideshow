@@ -18,6 +18,11 @@
    overflow: visible;
    position: relative;
    
+	&:hover li,
+	&:hover .progress-bar {
+		animation-play-state: paused;
+	}
+	
    ul {
       margin: 0;
       padding: 0;
@@ -46,6 +51,14 @@
       &.fifthanimation {
          animation: cyclefive 25s linear infinite;
       }
+		
+		&#first:hover .tooltip,
+		&#second:hover .tooltip,
+		&#third:hover .tooltip,
+		&#fourth:hover .tooltip,
+		&#fifth:hover .tooltip {
+			left: 0px;
+		}
    }
 	
 	/* Tooltip ------------------------------------------ */

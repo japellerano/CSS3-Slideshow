@@ -364,6 +364,9 @@ table {
   position: relative;
   /* Tooltip ------------------------------------------ */
 }
+#slider:hover li, #slider:hover .progress-bar {
+  animation-play-state: paused;
+}
 #slider ul {
   margin: 0;
   padding: 0;
@@ -390,6 +393,9 @@ table {
 }
 #slider li.fifthanimation {
   animation: cyclefive 25s linear infinite;
+}
+#slider li#first:hover .tooltip, #slider li#second:hover .tooltip, #slider li#third:hover .tooltip, #slider li#fourth:hover .tooltip, #slider li#fifth:hover .tooltip {
+  left: 0px;
 }
 #slider .tooltip {
   background: rgba(0, 0, 0, 0.7);

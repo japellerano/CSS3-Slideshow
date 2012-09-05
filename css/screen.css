@@ -19,8 +19,7 @@ hgroup,
 nav,
 section,
 summary {
-  display: block;
-}
+  display: block; }
 
 /*
  * Corrects `inline-block` display not defined in IE 8/9.
@@ -28,8 +27,7 @@ summary {
 audio,
 canvas,
 video {
-  display: inline-block;
-}
+  display: inline-block; }
 
 /*
  * Prevents modern browsers from displaying `audio` without controls.
@@ -37,15 +35,13 @@ video {
  */
 audio:not([controls]) {
   display: none;
-  height: 0;
-}
+  height: 0; }
 
 /*
  * Addresses styling for `hidden` attribute not present in IE 8/9.
  */
 [hidden] {
-  display: none;
-}
+  display: none; }
 
 /* ==========================================================================
    Base
@@ -61,15 +57,13 @@ html {
   -webkit-text-size-adjust: 100%;
   /* 2 */
   -ms-text-size-adjust: 100%;
-  /* 2 */
-}
+  /* 2 */ }
 
 /*
  * Removes default margin.
  */
 body {
-  margin: 0;
-}
+  margin: 0; }
 
 /* ==========================================================================
    Links
@@ -78,16 +72,14 @@ body {
  * Addresses `outline` inconsistency between Chrome and other browsers.
  */
 a:focus {
-  outline: thin dotted;
-}
+  outline: thin dotted; }
 
 /*
  * Improves readability when focused and also mouse hovered in all browsers.
  */
 a:active,
 a:hover {
-  outline: 0;
-}
+  outline: 0; }
 
 /* ==========================================================================
    Typography
@@ -97,38 +89,33 @@ a:hover {
  * Safari 5, and Chrome.
  */
 h1 {
-  font-size: 2em;
-}
+  font-size: 2em; }
 
 /*
  * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
  */
 abbr[title] {
-  border-bottom: 1px dotted;
-}
+  border-bottom: 1px dotted; }
 
 /*
  * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
 b,
 strong {
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 /*
  * Addresses styling not present in Safari 5 and Chrome.
  */
 dfn {
-  font-style: italic;
-}
+  font-style: italic; }
 
 /*
  * Addresses styling not present in IE 8/9.
  */
 mark {
   background: #ff0;
-  color: #000;
-}
+  color: #000; }
 
 /*
  * Corrects font family set oddly in Safari 5 and Chrome.
@@ -138,8 +125,7 @@ kbd,
 pre,
 samp {
   font-family: monospace, serif;
-  font-size: 1em;
-}
+  font-size: 1em; }
 
 /*
  * Improves readability of pre-formatted text in all browsers.
@@ -147,22 +133,19 @@ samp {
 pre {
   white-space: pre;
   white-space: pre-wrap;
-  word-wrap: break-word;
-}
+  word-wrap: break-word; }
 
 /*
  * Sets consistent quote types.
  */
 q {
-  quotes: "\201C" "\201D" "\2018" "\2019";
-}
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
 
 /*
  * Addresses inconsistent and variable font size in all browsers.
  */
 small {
-  font-size: 80%;
-}
+  font-size: 80%; }
 
 /*
  * Prevents `sub` and `sup` affecting `line-height` in all browsers.
@@ -172,16 +155,13 @@ sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 sup {
-  top: -0.5em;
-}
+  top: -0.5em; }
 
 sub {
-  bottom: -0.25em;
-}
+  bottom: -0.25em; }
 
 /* ==========================================================================
    Embedded content
@@ -190,15 +170,13 @@ sub {
  * Removes border when inside `a` element in IE 8/9.
  */
 img {
-  border: 0;
-}
+  border: 0; }
 
 /*
  * Corrects overflow displayed oddly in IE 9.
  */
 svg:not(:root) {
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 /* ==========================================================================
    Figures
@@ -207,8 +185,7 @@ svg:not(:root) {
  * Addresses margin not present in IE 8/9 and Safari 5.
  */
 figure {
-  margin: 0;
-}
+  margin: 0; }
 
 /* ==========================================================================
    Forms
@@ -219,8 +196,7 @@ figure {
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
-}
+  padding: 0.35em 0.625em 0.75em; }
 
 /*
  * 1. Corrects color not being inherited in IE 8/9.
@@ -230,8 +206,7 @@ legend {
   border: 0;
   /* 1 */
   padding: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /*
  * 1. Corrects font family not being inherited in all browsers.
@@ -247,8 +222,7 @@ textarea {
   font-size: 100%;
   /* 2 */
   margin: 0;
-  /* 3 */
-}
+  /* 3 */ }
 
 /*
  * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
@@ -256,8 +230,7 @@ textarea {
  */
 button,
 input {
-  line-height: normal;
-}
+  line-height: normal; }
 
 /*
  * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
@@ -273,16 +246,14 @@ input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
   cursor: pointer;
-  /* 3 */
-}
+  /* 3 */ }
 
 /*
  * Re-set default cursor for disabled elements.
  */
 button[disabled],
 input[disabled] {
-  cursor: default;
-}
+  cursor: default; }
 
 /*
  * 1. Addresses box sizing set to `content-box` in IE 8/9.
@@ -293,8 +264,7 @@ input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */
-}
+  /* 2 */ }
 
 /*
  * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
@@ -307,8 +277,7 @@ input[type="search"] {
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   /* 2 */
-  box-sizing: content-box;
-}
+  box-sizing: content-box; }
 
 /*
  * Removes inner padding and search cancel button in Safari 5 and Chrome
@@ -316,8 +285,7 @@ input[type="search"] {
  */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
+  -webkit-appearance: none; }
 
 /*
  * Removes inner padding and border in Firefox 4+.
@@ -325,8 +293,7 @@ input[type="search"]::-webkit-search-decoration {
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 /*
  * 1. Removes default vertical scrollbar in IE 8/9.
@@ -336,8 +303,7 @@ textarea {
   overflow: auto;
   /* 1 */
   vertical-align: top;
-  /* 2 */
-}
+  /* 2 */ }
 
 /* ==========================================================================
    Tables
@@ -347,8 +313,7 @@ textarea {
  */
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
 /* ----------------------------------------------------- */
 /* Header
@@ -356,21 +321,16 @@ table {
 header {
   width: 960px;
   margin: auto;
-  text-align: center;
-}
-header h1 {
-  font-size: 45px;
-}
-header p {
-  font-size: 14px;
-  font-style: italic;
-}
-header p a {
-  color: #e31e00;
-}
-header p a:hover {
-  color: #00a3e3;
-}
+  text-align: center; }
+  header h1 {
+    font-size: 45px; }
+  header p {
+    font-size: 14px;
+    font-style: italic; }
+    header p a {
+      color: #e31e00; }
+      header p a:hover {
+        color: #00a3e3; }
 
 /* ----------------------------------------------------- */
 /* Container
@@ -378,14 +338,12 @@ header p a:hover {
 .container {
   margin: 0 auto;
   overflow: hidden;
-  width: 960px;
-}
+  width: 960px; }
 
 #content-slider {
   width: 100%;
   height: 360px;
-  margin: 10px auto 0;
-}
+  margin: 10px auto 0; }
 
 /* ----------------------------------------------------- */
 /* Slider
@@ -399,726 +357,584 @@ header p a:hover {
   margin: 40px auto 0;
   overflow: visible;
   position: relative;
-  /* Tooltip ------------------------------------------ */
-}
-#slider:hover li, #slider:hover .progress-bar {
-  -webkit-animation-play-state: paused;
-  -moz-animation-play-state: paused;
-  animation-play-state: paused;
-}
-#slider ul {
-  margin: 0;
-  padding: 0;
-  position: relative;
-}
-#slider li {
-  width: 680px;
-  height: 320px;
-  position: absolute;
-  top: -325px;
-  list-style: none;
-}
-#slider li.firstanimation {
-  -webkit-animation: cycle 25s linear infinite;
-  -moz-animation: cycle 25s linear infinite;
-  animation: cycle 25s linear infinite;
-}
-#slider li.secondanimation {
-  -webkit-animation: cycletwo 25s linear infinite;
-  -moz-animation: cycletwo 25s linear infinite;
-  animation: cycletwo 25s linear infinite;
-}
-#slider li.thirdanimation {
-  -webkit-animation: cyclethree 25s linear infinite;
-  -moz-animation: cyclethree 25s linear infinite;
-  animation: cyclethree 25s linear infinite;
-}
-#slider li.fourthanimation {
-  -webkit-animation: cyclefour 25s linear infinite;
-  -moz-animation: cyclefour 25s linear infinite;
-  animation: cyclefour 25s linear infinite;
-}
-#slider li.fifthanimation {
-  -webkit-animation: cyclefive 25s linear infinite;
-  -moz-animation: cyclefive 25s linear infinite;
-  animation: cyclefive 25s linear infinite;
-}
-#slider li#first:hover .tooltip, #slider li#second:hover .tooltip, #slider li#third:hover .tooltip, #slider li#fourth:hover .tooltip, #slider li#fifth:hover .tooltip {
-  left: 0px;
-}
-#slider .tooltip {
-  background: rgba(0, 0, 0, 0.7);
-  width: 300px;
-  height: 60px;
-  position: relative;
-  bottom: 75px;
-  left: -320px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-#slider .tooltip h1 {
-  color: #fff;
-  font-size: 24px;
-  font-weight: 300;
-  line-height: 60px;
-  padding: 0 0 0 20px;
-}
+  /* Tooltip ------------------------------------------ */ }
+  #slider:hover li, #slider:hover .progress-bar {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    animation-play-state: paused; }
+  #slider ul {
+    margin: 0;
+    padding: 0;
+    position: relative; }
+  #slider li {
+    width: 680px;
+    height: 320px;
+    position: absolute;
+    top: -325px;
+    list-style: none; }
+    #slider li.firstanimation {
+      -webkit-animation: cycle 25s linear infinite;
+      -moz-animation: cycle 25s linear infinite;
+      animation: cycle 25s linear infinite; }
+    #slider li.secondanimation {
+      -webkit-animation: cycletwo 25s linear infinite;
+      -moz-animation: cycletwo 25s linear infinite;
+      animation: cycletwo 25s linear infinite; }
+    #slider li.thirdanimation {
+      -webkit-animation: cyclethree 25s linear infinite;
+      -moz-animation: cyclethree 25s linear infinite;
+      animation: cyclethree 25s linear infinite; }
+    #slider li.fourthanimation {
+      -webkit-animation: cyclefour 25s linear infinite;
+      -moz-animation: cyclefour 25s linear infinite;
+      animation: cyclefour 25s linear infinite; }
+    #slider li.fifthanimation {
+      -webkit-animation: cyclefive 25s linear infinite;
+      -moz-animation: cyclefive 25s linear infinite;
+      animation: cyclefive 25s linear infinite; }
+    #slider li#first:hover .tooltip, #slider li#second:hover .tooltip, #slider li#third:hover .tooltip, #slider li#fourth:hover .tooltip, #slider li#fifth:hover .tooltip {
+      left: 0px; }
+  #slider .tooltip {
+    background: rgba(0, 0, 0, 0.7);
+    width: 300px;
+    height: 60px;
+    position: relative;
+    bottom: 75px;
+    left: -320px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+    #slider .tooltip h1 {
+      color: #fff;
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 60px;
+      padding: 0 0 0 20px; }
 
 #mask {
   overflow: hidden;
-  height: 320px;
-}
+  height: 320px; }
 
 /* ----------------------------------------------------- */
 /* Animation
 /* ----------------------------------------------------- */
 @-webkit-keyframes cycle {
   0% {
-    top: 0px;
-  }
+    top: 0px; }
 
   4% {
-    top: 0px;
-  }
+    top: 0px; }
 
   16% {
     top: 0px;
     opacity: 1;
-    z-index: 0;
-  }
+    z-index: 0; }
 
   20% {
     top: 325px;
     opacity: 0;
-    z-index: 0;
-  }
+    z-index: 0; }
 
   21% {
     top: -325px;
     opacity: 0;
-    z-index: -1;
-  }
+    z-index: -1; }
 
   92% {
     top: -325px;
     opacity: 0;
-    z-index: 0;
-  }
+    z-index: 0; }
 
   96% {
     top: -325px;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   100% {
     top: 0px;
-    opacity: 1;
-  }
-}
+    opacity: 1; } }
 
 @-webkit-keyframes cycletwo {
   0% {
     top: -325px;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   16% {
     top: -325px;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   20% {
     top: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
 
   24% {
     top: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
 
   36% {
     top: 0px;
     opacity: 1;
-    z-index: 0;
-  }
+    z-index: 0; }
 
   40% {
     top: 325px;
     opacity: 0;
-    z-index: 0;
-  }
+    z-index: 0; }
 
   41% {
     top: -325px;
     opacity: 0;
-    z-index: -1;
-  }
+    z-index: -1; }
 
   100% {
     top: -325px;
     opacity: 0;
-    z-index: -1;
-  }
-}
+    z-index: -1; } }
 
 @-webkit-keyframes cyclethree {
   0% {
     top: -325px;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   36% {
     top: -325px;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   40% {
     top: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
 
   44% {
     top: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
 
   56% {
     top: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
 
   60% {
     top: 325px;
     opacity: 0;
-    z-index: 0;
-  }
+    z-index: 0; }
 
   61% {
     top: -325px;
     opacity: 0;
-    z-index: -1;
-  }
+    z-index: -1; }
 
   100% {
     top: -325px;
     opacity: 0;
-    z-index: -1;
-  }
-}
+    z-index: -1; } }
 
 @-webkit-keyframes cyclefour {
   0% {
     top: -325px;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   56% {
     top: -325px;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   60% {
     top: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
 
   64% {
     top: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
 
   76% {
     top: 0px;
     opacity: 1;
-    z-index: 0;
-  }
+    z-index: 0; }
 
   80% {
     top: 325px;
     opacity: 0;
-    z-index: 0;
-  }
+    z-index: 0; }
 
   81% {
     top: -325px;
     opacity: 0;
-    z-index: -1;
-  }
+    z-index: -1; }
 
   100% {
     top: -325px;
     opacity: 0;
-    z-index: -1;
-  }
-}
+    z-index: -1; } }
 
 @-webkit-keyframes cyclefive {
   0% {
     top: -325px;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   76% {
     top: -325px;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   80% {
     top: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
 
   84% {
     top: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
 
   96% {
     top: 0px;
     opacity: 1;
-    z-index: 0;
-  }
+    z-index: 0; }
 
   100% {
     top: 325px;
     opacity: 0;
-    z-index: 0;
-  }
-}
+    z-index: 0; } }
 
 /* Mozilla Support ------------------------------------- */
 @-moz-keyframes cycle {
   0% {
-    top: 0px;
-  }
+    top: 0px; }
 
   4% {
-    top: 0px;
-  }
+    top: 0px; }
 
   16% {
     top: 0px;
     opacity: 1;
-    z-index: 0;
-  }
+    z-index: 0; }
 
   20% {
     top: 325px;
     opacity: 0;
-    z-index: 0;
-  }
+    z-index: 0; }
 
   21% {
     top: -325px;
     opacity: 0;
-    z-index: -1;
-  }
+    z-index: -1; }
 
   92% {
     top: -325px;
     opacity: 0;
-    z-index: 0;
-  }
+    z-index: 0; }
 
   96% {
     top: -325px;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   100% {
     top: 0px;
-    opacity: 1;
-  }
-}
+    opacity: 1; } }
 
 @-moz-keyframes cycletwo {
   0% {
     top: -325px;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   16% {
     top: -325px;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   20% {
     top: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
 
   24% {
     top: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
 
   36% {
     top: 0px;
     opacity: 1;
-    z-index: 0;
-  }
+    z-index: 0; }
 
   40% {
     top: 325px;
     opacity: 0;
-    z-index: 0;
-  }
+    z-index: 0; }
 
   41% {
     top: -325px;
     opacity: 0;
-    z-index: -1;
-  }
+    z-index: -1; }
 
   100% {
     top: -325px;
     opacity: 0;
-    z-index: -1;
-  }
-}
+    z-index: -1; } }
 
 @-moz-keyframes cyclethree {
   0% {
     top: -325px;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   36% {
     top: -325px;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   40% {
     top: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
 
   44% {
     top: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
 
   56% {
     top: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
 
   60% {
     top: 325px;
     opacity: 0;
-    z-index: 0;
-  }
+    z-index: 0; }
 
   61% {
     top: -325px;
     opacity: 0;
-    z-index: -1;
-  }
+    z-index: -1; }
 
   100% {
     top: -325px;
     opacity: 0;
-    z-index: -1;
-  }
-}
+    z-index: -1; } }
 
 @-moz-keyframes cyclefour {
   0% {
     top: -325px;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   56% {
     top: -325px;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   60% {
     top: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
 
   64% {
     top: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
 
   76% {
     top: 0px;
     opacity: 1;
-    z-index: 0;
-  }
+    z-index: 0; }
 
   80% {
     top: 325px;
     opacity: 0;
-    z-index: 0;
-  }
+    z-index: 0; }
 
   81% {
     top: -325px;
     opacity: 0;
-    z-index: -1;
-  }
+    z-index: -1; }
 
   100% {
     top: -325px;
     opacity: 0;
-    z-index: -1;
-  }
-}
+    z-index: -1; } }
 
 @-moz-keyframes cyclefive {
   0% {
     top: -325px;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   76% {
     top: -325px;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   80% {
     top: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
 
   84% {
     top: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
 
   96% {
     top: 0px;
     opacity: 1;
-    z-index: 0;
-  }
+    z-index: 0; }
 
   100% {
     top: 325px;
     opacity: 0;
-    z-index: 0;
-  }
-}
+    z-index: 0; } }
 
 /* CSS3 Supported Browser Support ---------------------- */
 @keyframes cycle {
   0% {
-    top: 0px;
-  }
+    top: 0px; }
 
   4% {
-    top: 0px;
-  }
+    top: 0px; }
 
   16% {
     top: 0px;
     opacity: 1;
-    z-index: 0;
-  }
+    z-index: 0; }
 
   20% {
     top: 325px;
     opacity: 0;
-    z-index: 0;
-  }
+    z-index: 0; }
 
   21% {
     top: -325px;
     opacity: 0;
-    z-index: -1;
-  }
+    z-index: -1; }
 
   92% {
     top: -325px;
     opacity: 0;
-    z-index: 0;
-  }
+    z-index: 0; }
 
   96% {
     top: -325px;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   100% {
     top: 0px;
-    opacity: 1;
-  }
-}
+    opacity: 1; } }
 
 @keyframes cycletwo {
   0% {
     top: -325px;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   16% {
     top: -325px;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   20% {
     top: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
 
   24% {
     top: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
 
   36% {
     top: 0px;
     opacity: 1;
-    z-index: 0;
-  }
+    z-index: 0; }
 
   40% {
     top: 325px;
     opacity: 0;
-    z-index: 0;
-  }
+    z-index: 0; }
 
   41% {
     top: -325px;
     opacity: 0;
-    z-index: -1;
-  }
+    z-index: -1; }
 
   100% {
     top: -325px;
     opacity: 0;
-    z-index: -1;
-  }
-}
+    z-index: -1; } }
 
 @keyframes cyclethree {
   0% {
     top: -325px;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   36% {
     top: -325px;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   40% {
     top: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
 
   44% {
     top: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
 
   56% {
     top: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
 
   60% {
     top: 325px;
     opacity: 0;
-    z-index: 0;
-  }
+    z-index: 0; }
 
   61% {
     top: -325px;
     opacity: 0;
-    z-index: -1;
-  }
+    z-index: -1; }
 
   100% {
     top: -325px;
     opacity: 0;
-    z-index: -1;
-  }
-}
+    z-index: -1; } }
 
 @keyframes cyclefour {
   0% {
     top: -325px;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   56% {
     top: -325px;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   60% {
     top: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
 
   64% {
     top: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
 
   76% {
     top: 0px;
     opacity: 1;
-    z-index: 0;
-  }
+    z-index: 0; }
 
   80% {
     top: 325px;
     opacity: 0;
-    z-index: 0;
-  }
+    z-index: 0; }
 
   81% {
     top: -325px;
     opacity: 0;
-    z-index: -1;
-  }
+    z-index: -1; }
 
   100% {
     top: -325px;
     opacity: 0;
-    z-index: -1;
-  }
-}
+    z-index: -1; } }
 
 @keyframes cyclefive {
   0% {
     top: -325px;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   76% {
     top: -325px;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   80% {
     top: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
 
   84% {
     top: 0px;
-    opacity: 1;
-  }
+    opacity: 1; }
 
   96% {
     top: 0px;
     opacity: 1;
-    z-index: 0;
-  }
+    z-index: 0; }
 
   100% {
     top: 325px;
     opacity: 0;
-    z-index: 0;
-  }
-}
+    z-index: 0; } }
 
 /* ----------------------------------------------------- */
 /* Progress Bar
@@ -1131,8 +947,7 @@ header p a:hover {
   background: #00a3e3;
   -webkit-animation: fullexpand 25s ease-out infinite;
   -moz-animation: fullexpand 25s ease-out infinite;
-  animation: fullexpand 25s ease-out infinite;
-}
+  animation: fullexpand 25s ease-out infinite; }
 
 /* ----------------------------------------------------- */
 /* Animation Bar
@@ -1140,82 +955,64 @@ header p a:hover {
 @-webkit-keyframes fullexpand {
   0%, 20%, 40%, 60%, 80%, 100% {
     width: 0%;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   4%, 24%, 44%, 64%, 84% {
     width: 0%;
-    opacity: 0.3;
-  }
+    opacity: 0.3; }
 
   16%, 36%, 56%, 76%, 96% {
     width: 100%;
-    opacity: 0.7;
-  }
+    opacity: 0.7; }
 
   17%, 37%, 57%, 77%, 97% {
     width: 100%;
-    opacity: 0.3;
-  }
+    opacity: 0.3; }
 
   18%, 38%, 58%, 78%, 98% {
     width: 100%;
-    opacity: 0;
-  }
-}
+    opacity: 0; } }
 
 /* Mozilla Support ------------------------------------- */
 @-moz-keyframes fullexpand {
   0%, 20%, 40%, 60%, 80%, 100% {
     width: 0%;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   4%, 24%, 44%, 64%, 84% {
     width: 0%;
-    opacity: 0.3;
-  }
+    opacity: 0.3; }
 
   16%, 36%, 56%, 76%, 96% {
     width: 100%;
-    opacity: 0.7;
-  }
+    opacity: 0.7; }
 
   17%, 37%, 57%, 77%, 97% {
     width: 100%;
-    opacity: 0.3;
-  }
+    opacity: 0.3; }
 
   18%, 38%, 58%, 78%, 98% {
     width: 100%;
-    opacity: 0;
-  }
-}
+    opacity: 0; } }
 
 /* CSS3 Supported Browser Support ---------------------- */
 @keyframes fullexpand {
   0%, 20%, 40%, 60%, 80%, 100% {
     width: 0%;
-    opacity: 0;
-  }
+    opacity: 0; }
 
   4%, 24%, 44%, 64%, 84% {
     width: 0%;
-    opacity: 0.3;
-  }
+    opacity: 0.3; }
 
   16%, 36%, 56%, 76%, 96% {
     width: 100%;
-    opacity: 0.7;
-  }
+    opacity: 0.7; }
 
   17%, 37%, 57%, 77%, 97% {
     width: 100%;
-    opacity: 0.3;
-  }
+    opacity: 0.3; }
 
   18%, 38%, 58%, 78%, 98% {
     width: 100%;
-    opacity: 0;
-  }
-}
+    opacity: 0; } }

@@ -62,6 +62,7 @@ header {
 	&:hover .progress-bar {
 		-webkit-animation-play-state: paused;
 		-moz-animation-play-state: paused;
+		animation-play-state: paused;
 	}
 	
    ul {
@@ -80,22 +81,27 @@ header {
       &.firstanimation {
          -webkit-animation: cycle 25s linear infinite;
 			-moz-animation: cycle 25s linear infinite;
+			animation: cycle 25s linear infinite;
       } 
       &.secondanimation {
 			-webkit-animation: cycletwo 25s linear infinite;
 			-moz-animation: cycletwo 25s linear infinite;
+			animation: cycletwo 25s linear infinite;
       }
       &.thirdanimation {
          -webkit-animation: cyclethree 25s linear infinite;
 			-moz-animation: cyclethree 25s linear infinite;
+			animation: cyclethree 25s linear infinite;
       }
       &.fourthanimation {
          -webkit-animation: cyclefour 25s linear infinite;
 			-moz-animation: cyclefour 25s linear infinite;
+			animation: cyclefour 25s linear infinite;
       }
       &.fifthanimation {
          -webkit-animation: cyclefive 25s linear infinite;
 			-moz-animation: cyclefive 25s linear infinite;
+			animation: cyclefive 25s linear infinite;
       }
 		
 		&#first:hover .tooltip,
@@ -118,6 +124,7 @@ header {
 		
 		-webkit-transition: all 0.3s ease-in-out;
 		-moz-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
 		
 		h1 {
 			color: #fff;
@@ -244,6 +251,60 @@ header {
    100% { top: 325px;  opacity: 0; z-index: 0; }
 }
 
+/* CSS3 Supported Browser Support ---------------------- */
+@keyframes cycle {
+   0%   { top: 0px; }
+   4%   { top: 0px; }
+   16%  { top: 0px;    opacity: 1; z-index: 0; }
+   20%  { top: 325px;  opacity: 0; z-index: 0; }
+   21%  { top: -325px; opacity: 0; z-index: -1; }
+   92%  { top: -325px; opacity: 0; z-index: 0; }
+   96%  { top: -325px; opacity: 0; }
+   100% { top: 0px;    opacity: 1; }
+}
+
+@keyframes cycletwo {
+   0%   { top: -325px; opacity: 0; }
+   16%  { top: -325px; opacity: 0; }
+   20%  { top: 0px;    opacity: 1; }
+   24%  { top: 0px;    opacity: 1; }
+   36%  { top: 0px;    opacity: 1; z-index: 0; }
+   40%  { top: 325px;  opacity: 0; z-index: 0; }
+   41%  { top: -325px; opacity: 0; z-index: -1; }
+   100% { top: -325px; opacity: 0; z-index: -1; }
+}
+
+@keyframes cyclethree {
+   0%   { top: -325px; opacity: 0; }
+   36%  { top: -325px; opacity: 0; }
+   40%  { top: 0px;    opacity: 1; }
+   44%  { top: 0px;    opacity: 1; }
+   56%  { top: 0px;    opacity: 1; }
+   60%  { top: 325px;  opacity: 0; z-index: 0; }
+   61%  { top: -325px; opacity: 0; z-index: -1; }
+   100% { top: -325px; opacity: 0; z-index: -1; }
+}
+
+@keyframes cyclefour {
+   0%   { top: -325px; opacity: 0; }
+   56%  { top: -325px; opacity: 0; }
+   60%  { top: 0px;    opacity: 1; }
+   64%  { top: 0px;    opacity: 1; }
+   76%  { top: 0px;    opacity: 1; z-index: 0; }
+   80%  { top: 325px;  opacity: 0; z-index: 0; }
+   81%  { top: -325px; opacity: 0; z-index: -1; }
+   100% { top: -325px; opacity: 0; z-index: -1; }
+}
+
+@keyframes cyclefive {
+   0%   { top: -325px; opacity: 0; }
+   76%  { top: -325px; opacity: 0; }
+   80%  { top: 0px;    opacity: 1; }
+   84%  { top: 0px;    opacity: 1; }
+   96%  { top: 0px;    opacity: 1; z-index: 0;}
+   100% { top: 325px;  opacity: 0; z-index: 0; }
+}
+
 /* ----------------------------------------------------- */
 /* Progress Bar
 /* ----------------------------------------------------- */
@@ -255,6 +316,7 @@ header {
 	background: rgba(0, 163, 227, 1.0);
 	-webkit-animation: fullexpand 25s ease-out infinite;
 	-moz-animation: fullexpand 25s ease-out infinite;
+	animation: fullexpand 25s ease-out infinite;
 }
 
 /* ----------------------------------------------------- */
@@ -270,6 +332,15 @@ header {
 
 /* Mozilla Support ------------------------------------- */
 @-moz-keyframes fullexpand {
+	0%, 20%, 40%, 60%, 80%, 100% { width: 0%;   opacity: 0; }
+	4%, 24%, 44%, 64%, 84%       { width: 0%;   opacity: 0.3; }
+	16%, 36%, 56%, 76%, 96%      { width: 100%; opacity: 0.7; }
+	17%, 37%, 57%, 77%, 97%      { width: 100%; opacity: 0.3; }
+	18%, 38%, 58%, 78%, 98%      { width: 100%; opacity: 0; }
+}
+
+/* CSS3 Supported Browser Support ---------------------- */
+@keyframes fullexpand {
 	0%, 20%, 40%, 60%, 80%, 100% { width: 0%;   opacity: 0; }
 	4%, 24%, 44%, 64%, 84%       { width: 0%;   opacity: 0.3; }
 	16%, 36%, 56%, 76%, 96%      { width: 100%; opacity: 0.7; }

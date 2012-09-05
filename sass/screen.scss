@@ -47,6 +47,26 @@
          animation: cyclefive 25s linear infinite;
       }
    }
+	
+	/* Tooltip ------------------------------------------ */
+	.tooltip {
+		background: rgba(0, 0, 0, 0.7);
+		width: 300px;
+		height: 60px;
+		position: relative;
+		bottom: 75px;
+		left: -320px;
+		
+		transition: all 0.3s ease-in-out;
+		
+		h1 {
+			color: #fff;
+			font-size: 24px;
+			font-weight: 300;
+			line-height: 60px;
+			padding: 0 0 0 10px;
+		}
+	}
 }
 
 #mask {
@@ -113,3 +133,22 @@
 /* ----------------------------------------------------- */
 /* Progress Bar
 /* ----------------------------------------------------- */
+.progress-bar {
+	position: relative;
+	top: -5px;
+	width: 680px;
+	height: 5px;
+	background: #000;
+	animation: fullexpand 25s ease-out infinite;
+}
+
+/* ----------------------------------------------------- */
+/* Animation Bar
+/* ----------------------------------------------------- */
+@keyframes fullexpand {
+	0%, 20%, 40%, 60%, 80%, 100% { width: 0%;   opacity: 0; }
+	4%, 24%, 44%, 64%, 84%       { width: 0%;   opacity: 0.3; }
+	16%, 36%, 56%, 76%, 96%      { width: 100%; opacity: 0.7; }
+	17%, 37%, 57%, 77%, 97%      { width: 100%; opacity: 0.3; }
+	18%, 38%, 58%, 78%, 98%      { width: 100%; opacity: 0; }
+}
